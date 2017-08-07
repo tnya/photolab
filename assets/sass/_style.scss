@@ -1,3 +1,4 @@
+/* NAVBAR */
 nav{
 	background: transparent;
 	height: 0;
@@ -14,13 +15,13 @@ nav{
 		}
 	}
 }
-
+/* SECCION 1: HOME */
 .sec-1{
 	background: url('../../dist/img/bg1.jpg');
 	background-size: cover;
 	background-repeat:no-repeat;
 	width: 100%;
-	height: 100vh;
+	height: 700px;
 	background-attachment:fixed;
 	/* position:relative;*/
 	z-index:-1;
@@ -39,4 +40,37 @@ nav{
 			color:#fff;
 		}
 	}
+}
+
+/* SECCION 2: REPRESENT YOUR LIFE */
+
+.sec-2{
+	padding: 50px 40px 0;
+	background-color: #F2F4F6;
+	margin-bottom: 0;
+	.info{
+		padding-left: 63px;
+		h6{
+			color: #26a69a;
+			font-family: 'Nunito', sans-serif;
+			font-size:16px;
+		}
+			p{
+				margin-top:35px;
+			}
+	}
+	.img-phone{
+		background: url('../../dist/img/hand.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top;
+		padding:200px;
+	}
+}
+
+/* FOOTER */
+
+.footer-text{
+		padding-left: 67px;
+
 }
