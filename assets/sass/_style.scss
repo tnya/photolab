@@ -57,6 +57,7 @@ nav{
 		}
 			p{
 				margin-top:35px;
+				font-family: "Varela Round", sans-serif;
 			}
 	}
 	.img-phone{
@@ -72,5 +73,14 @@ nav{
 
 .footer-text{
 		padding-left: 67px;
-
+		margin-bottom: 0;
+		p{
+			font-family: "Varela Round", sans-serif;
+			a{
+				color:black;
+			}
+			span{
+				color: #26a69a;
+			}
+		}
 }
